@@ -25,7 +25,7 @@ with MicroK8s, k3s, or full kubeadm.
 
 🔹 3. Steps to Setup Kubernetes Cluster with Multipass
 
-Step 1: Launch VMs
+Step 1: Install Multipass VM by following the link https://canonical.com/multipass and  Launch VMs
 
 \# Master node 
 `multipass launch -n k8s-master -c 2 -m 4G -d 20G`
